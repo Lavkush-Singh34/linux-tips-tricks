@@ -121,37 +121,6 @@ For better readability, especially with programming, install some essential font
 
 ```bash
 sudo pacman -S ttf-dejavu ttf-liberation
-```
-
----
-
-## **10. Configure Firewall with `ufw`**
-
-Security is crucial, so it's always a good idea to set up a firewall. Install **ufw**:
-
-```bash
-sudo pacman -S ufw
-sudo systemctl enable ufw.service
-```
-
-Enable and configure the firewall:
-
-```bash
-sudo ufw enable
-sudo ufw allow ssh
-```
-
----
-
-## **11. Enable Bluetooth (If Applicable)**
-
-For Bluetooth support, you’ll need to install **Bluez**:
-
-```bash
-sudo pacman -S bluez bluez-utils
-sudo systemctl enable bluetooth.service
-```
-
 ---
 
 ## **12. Install Multimedia Tools**
@@ -159,7 +128,6 @@ sudo systemctl enable bluetooth.service
 If you need multimedia support, install these packages:
 
 - **`mpv`** – Video player
-- **`vlc`** – Another multimedia player
 - **`ffmpeg`** – Multimedia framework for conversion, recording, and streaming
 
 ```bash
@@ -373,7 +341,3 @@ This format provides clean, structured instructions with explanations for each s
 With these essential tips and packages, your Arch Linux system should be well on its way to being fully configured and optimized. Don’t forget to regularly check for updates and keep your system secure.
 
 Happy Arch-ing! 🚀
-
----
-
-Feel free to customize and add more content depending on your specific needs and setup! You can copy-paste this into your GitHub readme file to make it look nice and professional.
